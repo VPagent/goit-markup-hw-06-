@@ -330,7 +330,6 @@
     <footer class="footer-styles">
         <div class="conteiner">
             <div class="footer-box">
-                
                 <address>
                     <a class="logo" href="./index.html">Web<span class="footer-logo">Studio</span></a>
                     <ul class="address-list">
@@ -372,6 +371,21 @@
                         </li>
                     </ul>
                 </div>
+                <div class="follow-box">
+                    <form class="follow-form">
+                        <h3>Подпишитесь на рассылку</h3>
+                        <label class="follow-label">
+                            <input class="follow-input" type="email" name="follow-email" placeholder="E-mail">
+                            <button class="follow-btn" type="submit">Подписаться
+                                <svg class="follow-svg" width="24" height="24">
+                                    <use href="./images/symbol-defs.svg#icon-plan"></use>
+                                </svg>
+                            </button>
+                        </label>
+
+                    </form>
+
+                </div>
             </div>
         </div>
     </footer>
@@ -382,6 +396,54 @@
                     <use href="./images/symbol-defs.svg#icon-close"></use>
                 </svg>
             </button>
+            
+                <div class="form-box">
+                    <h4>Оставьте свои даные, мы Вам перезвоним</h4>  
+                <form class="form">
+                    <label class="field">
+                        <span class="label">Имя</span>
+                        <input class="input" name="username" type="text">
+                        <svg class="form-svg" widht="18px" height="18px">
+                            <use href="./images/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
+                        </svg>
+                        
+                    </label>
+                    <label class="field">
+                        <span class="label">Телефон</span>
+                        <input class="input" name="tel" type="tel">
+                        <svg class="form-svg" widht="18px" height="18px">
+                            <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1-1"></use>
+                        </svg>
+                        
+                    </label>
+                    <label class="field">
+                        <span class="label">Почта</span>
+                        <input class="input" name="email" type="email">
+                        <svg class="form-svg" widht="18px" height="18px">
+                            <use href="./images/symbol-defs.svg#icon-email-black-18dp-1-1"></use>
+                        </svg>
+                        
+                    </label>
+                    <label class="field">
+                        <span class="label">Комментарий</span>
+                        <textarea class="input comment" name="comment" placeholder="Введите комментарий"></textarea>
+                    </label>
+                    <label class="checkbox-label">
+                        <input class="input-check" name="agreement" type="checkbox">
+                        <span class="checkbox-text">
+                            <svg class="icon-check" width="15px" height="15px">
+                                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+                            </svg>
+                        </span>
+                        Соглашаюсь с рассылкой и принимаю
+                        <a href=""><span class="checkbox-link">Условия договора</span></a>
+                    </label>
+                    <button class="sub-btn" type="submit">Отправить</button>
+                </form>
+                </div>
+            
+
+            
         </div>
     </div>
     <script src="./js/modal.js"></script>
